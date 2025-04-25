@@ -9,8 +9,17 @@
     <version>1.0-SNAPSHOT</version>
   </parent> 
   -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.2.4</version> <!-- Use latest compatible version -->
+    <relativePath/> <!-- lookup in central repository -->
+  </parent>
+
+  <!--
   <groupId>com.howtodoinjava</groupId>
   <version>1.0</version>
+  -->
   <artifactId>rest-api-crud-example</artifactId>
   <packaging>jar</packaging>
   <name>rest-api-crud-example</name>
