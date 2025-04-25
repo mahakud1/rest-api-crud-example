@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
   </parent> 
   -->
-
+  <groupId>com.howtodoinjava</groupId>
+  <version>1.0</version>
   <artifactId>rest-api-crud-example</artifactId>
   <packaging>jar</packaging>
   <name>rest-api-crud-example</name>
