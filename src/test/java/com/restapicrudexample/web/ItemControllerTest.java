@@ -84,6 +84,15 @@ public class ItemControllerTest {
         .andExpect(MockMvcResultMatchers.status().isOk())
         .andExpect(MockMvcResultMatchers.jsonPath("$.name").value("Test Item"));
   }
+  
+  /**  TO BE UNCOMMENTED TO TEST A FAILING CASE - FOR DEMONSTRATION PURPOSES
+  @Test
+  public void testFailingCase() throws Exception {
+    mockMvc.perform(MockMvcRequestBuilders.get("/nonexistent-endpoint")
+        .contentType(MediaType.APPLICATION_JSON))
+        .andExpect(MockMvcResultMatchers.status().isOk()); // This will fail as the endpoint does not exist
+  }
+  */
 
   @Test
   public void testUpdateOrCreateItem() throws Exception {
