@@ -1,4 +1,4 @@
-package com.howtodoinjava.dao.model;
+package com.restapicrudexample.dao.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

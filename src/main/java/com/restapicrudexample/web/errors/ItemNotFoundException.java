@@ -1,4 +1,4 @@
-package com.howtodoinjava.web.errors;
+package com.restapicrudexample.web.errors;
 
 public class ItemNotFoundException extends RuntimeException {
 

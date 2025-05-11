@@ -1,7 +1,7 @@
-package com.howtodoinjava;
+package com.restapicrudexample;
 
-import com.howtodoinjava.dao.model.Item;
-import com.howtodoinjava.dao.model.ItemRepository;
+import com.restapicrudexample.dao.model.Item;
+import com.restapicrudexample.dao.model.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

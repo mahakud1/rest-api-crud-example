@@ -1,8 +1,10 @@
-package com.howtodoinjava.web;
+package com.restapicrudexample.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.howtodoinjava.dao.model.Item;
-import com.howtodoinjava.dao.model.ItemRepository;
+import com.restapicrudexample.dao.model.Item;
+import com.restapicrudexample.dao.model.ItemRepository;
+import com.restapicrudexample.web.ItemController;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockitoAnnotations;

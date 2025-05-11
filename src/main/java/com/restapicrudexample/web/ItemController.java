@@ -1,8 +1,8 @@
-package com.howtodoinjava.web;
+package com.restapicrudexample.web;
 
-import com.howtodoinjava.dao.model.Item;
-import com.howtodoinjava.dao.model.ItemRepository;
-import com.howtodoinjava.web.errors.ItemNotFoundException;
+import com.restapicrudexample.dao.model.Item;
+import com.restapicrudexample.dao.model.ItemRepository;
+import com.restapicrudexample.web.errors.ItemNotFoundException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

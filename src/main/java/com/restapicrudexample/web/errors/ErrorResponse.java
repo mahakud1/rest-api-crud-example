@@ -1,4 +1,4 @@
-package com.howtodoinjava.web.errors;
+package com.restapicrudexample.web.errors;
 
 import jakarta.xml.bind.annotation.XmlRootElement;
 import java.util.List;

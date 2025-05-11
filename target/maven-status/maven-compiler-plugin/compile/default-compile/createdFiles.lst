@@ -1,0 +1,7 @@
+com\restapicrudexample\dao\model\Item.class
+com\restapicrudexample\App.class
+com\restapicrudexample\web\errors\ApplicationExceptionHandler.class
+com\restapicrudexample\dao\model\ItemRepository.class
+com\restapicrudexample\web\errors\ErrorResponse.class
+com\restapicrudexample\web\errors\ItemNotFoundException.class
+com\restapicrudexample\web\ItemController.class

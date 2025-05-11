@@ -1,4 +1,4 @@
-package com.howtodoinjava;
+package com.restapicrudexample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

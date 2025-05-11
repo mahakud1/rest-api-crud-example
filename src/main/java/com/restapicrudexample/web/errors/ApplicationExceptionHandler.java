@@ -1,4 +1,4 @@
-package com.howtodoinjava.web.errors;
+package com.restapicrudexample.web.errors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
